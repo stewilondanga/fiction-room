@@ -191,19 +191,20 @@ a {
   }
 }
 
-/*@media (orientation: landscape) {
+@media (orientation: landscape) {
   .old-page {
     -webkit-mask: url("https://assets.codepen.io/907471/tail.svg?v1") center top no-repeat, url("https://assets.codepen.io/907471/space-landscape.svg?v4") center center no-repeat, url("https://assets.codepen.io/907471/ncc1701.svg") center center no-repeat;
-            mask: url("https://assets.codepen.io/907471/tail.svg?v1") center top no-repeat, url("https://assets.codepen.io/907471/space-landscape.svg?v4") center center no-repeat, url("https://assets.codepen.io/907471/ncc1701.svg") center center no-repeat;
+    mask: url("https://assets.codepen.io/907471/tail.svg?v1") center top no-repeat, url("https://assets.codepen.io/907471/space-landscape.svg?v4") center center no-repeat, url("https://assets.codepen.io/907471/ncc1701.svg") center center no-repeat;
     -webkit-mask-repeat: no-repeat;
-            mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
     -webkit-mask-size: 10rem 30rem, 500% 500%, 100% 30%;
-            mask-size: 10rem 30rem, 500% 500%, 100% 30%;
+    mask-size: 10rem 30rem, 500% 500%, 100% 30%;
     -webkit-animation: hide-view-landscape var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) infinite forwards;
-            animation: hide-view-landscape var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) infinite forwards;
+    animation: hide-view-landscape var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) infinite forwards;
   }
 }
-@media (orientation: landscape) and (max-height: 300px) {
+
+/*@media (orientation: landscape) and (max-height: 300px) {
   .old-page {
     -webkit-mask-size: 10rem 10rem, 500% 500%, 100% 30%;
             mask-size: 10rem 10rem, 500% 500%, 100% 30%;
