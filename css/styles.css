@@ -323,16 +323,16 @@ a {
   }
 }
 
-/*.new-page {
+.new-page {
   position: absolute;
   inset: 0;
   background: url("https://assets.codepen.io/907471/science-fiction-room_1.png?v42") center center no-repeat, #111;
   background-size: cover;
   -webkit-animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) infinite forwards;
-          animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) infinite forwards;
+  animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) infinite forwards;
 }
 
-@-webkit-keyframes show {
+/*@-webkit-keyframes show {
   from {
     filter: saturate(0%);
     opacity: 0.4;
