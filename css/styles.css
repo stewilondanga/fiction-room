@@ -161,12 +161,12 @@ a {
   color: #04d;
 }
 
-/*.cal td {
+.cal td {
   padding: 0 2px;
   line-height: 100%;
 }
 
-:root {
+/*:root {
   --duration: 2.8s;
 }
 
