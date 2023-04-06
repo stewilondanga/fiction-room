@@ -26,6 +26,7 @@
   -webkit-perspective: 200px;
   -moz-perspective: 200px;
   perspective: 200px;
+  z-index: 15;
 }
 
 .share-button__back {
