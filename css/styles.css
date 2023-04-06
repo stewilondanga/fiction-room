@@ -204,14 +204,14 @@ a {
   }
 }
 
-/*@media (orientation: landscape) and (max-height: 300px) {
+@media (orientation: landscape) and (max-height: 300px) {
   .old-page {
     -webkit-mask-size: 10rem 10rem, 500% 500%, 100% 30%;
-            mask-size: 10rem 10rem, 500% 500%, 100% 30%;
+    mask-size: 10rem 10rem, 500% 500%, 100% 30%;
   }
 }
 
-@-webkit-keyframes hide-view-portrait {
+/*@-webkit-keyframes hide-view-portrait {
   from {
     -webkit-mask-position: 50% 120%, 50% 0%, 50% 150%;
             mask-position: 50% 120%, 50% 0%, 50% 150%;
