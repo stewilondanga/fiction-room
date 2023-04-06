@@ -170,14 +170,15 @@ a {
   --duration: 2.8s;
 }
 
-/*.old-page {
+.old-page {
   position: absolute;
   inset: 0;
   background: url("https://assets.codepen.io/907471/science-fiction-room-2_1.png?v42") center center no-repeat;
   background-size: cover;
   transform: scale(1.5);
 }
-@media (orientation: portrait) {
+
+/*@media (orientation: portrait) {
   .old-page {
     -webkit-mask: url("https://assets.codepen.io/907471/tail.svg?v1") center top no-repeat, url("https://assets.codepen.io/907471/space.svg?v42") center center no-repeat, url("https://assets.codepen.io/907471/ncc1701.svg") center center no-repeat;
             mask: url("https://assets.codepen.io/907471/tail.svg?v1") center top no-repeat, url("https://assets.codepen.io/907471/space.svg?v42") center center no-repeat, url("https://assets.codepen.io/907471/ncc1701.svg") center center no-repeat;
