@@ -332,25 +332,28 @@ a {
   animation: show var(--duration) cubic-bezier(0.975, -0.005, 0, 1.02) infinite forwards;
 }
 
-/*@-webkit-keyframes show {
+@-webkit-keyframes show {
   from {
     filter: saturate(0%);
     opacity: 0.4;
   }
+
   40% {
     filter: saturate(0%);
     opacity: 0.4;
   }
+
   80% {
     filter: saturate(100%);
     opacity: 1;
   }
+
   to {
     filter: saturate(100%);
   }
 }
 
-@keyframes show {
+/*@keyframes show {
   from {
     filter: saturate(0%);
     opacity: 0.4;
