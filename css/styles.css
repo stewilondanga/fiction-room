@@ -166,11 +166,11 @@ a {
   line-height: 100%;
 }
 
-/*:root {
+:root {
   --duration: 2.8s;
 }
 
-.old-page {
+/*.old-page {
   position: absolute;
   inset: 0;
   background: url("https://assets.codepen.io/907471/science-fiction-room-2_1.png?v42") center center no-repeat;
