@@ -383,11 +383,11 @@ body {
   overflow: hidden;
 }
 
-/*.labs-follow-me {
+.labs-follow-me {
   transform: scale(0.8) !important;
 }
 
-@media screen and (max-height: 800px) {
+/*@media screen and (max-height: 800px) {
   :root {
     font-size: 8px;
   }
