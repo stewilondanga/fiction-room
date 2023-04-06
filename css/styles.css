@@ -211,31 +211,35 @@ a {
   }
 }
 
-/*@-webkit-keyframes hide-view-portrait {
+@-webkit-keyframes hide-view-portrait {
   from {
     -webkit-mask-position: 50% 120%, 50% 0%, 50% 150%;
-            mask-position: 50% 120%, 50% 0%, 50% 150%;
+    mask-position: 50% 120%, 50% 0%, 50% 150%;
     transform: scale(1.5);
   }
+
   45% {
     transform: scale(1);
   }
+
   50% {
     -webkit-mask-position: 50% 120%, 50% 80%, 50% 60%;
-            mask-position: 50% 120%, 50% 80%, 50% 60%;
+    mask-position: 50% 120%, 50% 80%, 50% 60%;
   }
+
   80% {
     -webkit-mask-position: 50% -60%, 50% 140%, 50% -70%;
-            mask-position: 50% -60%, 50% 140%, 50% -70%;
+    mask-position: 50% -60%, 50% 140%, 50% -70%;
   }
+
   to {
     -webkit-mask-position: 50% -60%, 50% 140%, 50% -70%;
-            mask-position: 50% -60%, 50% 140%, 50% -70%;
+    mask-position: 50% -60%, 50% 140%, 50% -70%;
     transform: scale(1);
   }
 }
 
-@keyframes hide-view-portrait {
+/*@keyframes hide-view-portrait {
   from {
     -webkit-mask-position: 50% 120%, 50% 0%, 50% 150%;
             mask-position: 50% 120%, 50% 0%, 50% 150%;
