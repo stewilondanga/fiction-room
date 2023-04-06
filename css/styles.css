@@ -374,7 +374,7 @@ a {
   }
 }
 
-/*body {
+body {
   height: 100vh;
   width: 100vw;
   position: relative;
@@ -383,7 +383,7 @@ a {
   overflow: hidden;
 }
 
-.labs-follow-me {
+/*.labs-follow-me {
   transform: scale(0.8) !important;
 }
 
